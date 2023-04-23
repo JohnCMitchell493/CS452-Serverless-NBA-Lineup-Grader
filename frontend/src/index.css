@@ -1,0 +1,279 @@
+body {
+  background-image: url(https://signsbysi.com/wp-content/uploads/2022/09/halfcourt16x163.png);
+  background-repeat: repeat;
+  background-position: top;
+  background-size: cover;
+  height: 100vh;
+  background-color: darkgrey;
+
+}
+
+.nav {
+  padding: 0;
+  margin: 0;
+  background-color: darkgrey;
+}
+
+.main {
+  padding: 0;
+  margin: 0;
+}
+
+.instructions {
+  background-color: white;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f8f8f8;
+  padding: 20px;
+  text-align: center;
+  min-width: 40%;
+  max-width: 800px;
+  border-radius: 10px; /* Add rounded corners to the div */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.img-span {
+  height: auto;
+  display: inline-block; /* Set display property to inline-block to make the span element take only as much width as needed */
+  margin: 0; /* Reset margin */
+  padding: 0; /* Reset padding */
+  display: flex; /* Set display property to flex */
+  justify-content: center; /* Center the image horizontally */
+  align-items: center; /* Center the image vertically */
+}
+
+.post-img {
+
+  width: 18%; /* Adjust the size of the player images as needed */
+  padding: 4% 6%;
+  
+}
+
+.wing-img {
+
+  width: 18%; /* Adjust the size of the player images as needed */
+  padding: 4% 22%;
+
+}
+
+.point-img {
+  width: 18%; /* Adjust the size of the player images as needed */
+  padding: 0% 22%;
+}
+
+.title {
+  text-align: center;
+  margin-top: 0%;
+  font-size: 3vw;
+}
+
+.input-container {
+  margin: 10px;
+  text-align: center;
+}
+
+.input-field {
+  width: 85%;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid #333;
+  outline: none;
+  background-color: #f5f5f5;
+  color: #333;
+  font-size: 16px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.submit-button {
+  margin-top: 10px;
+  width: 85%;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 16px;
+  text-transform: uppercase;
+  border-radius: 10px;
+}
+
+
+.card {
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #f2f2f2;
+}
+
+.card-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 16px;
+}
+
+.card-title {
+  margin: 0 0 8px;
+  font-size: 18px;
+  font-weight: bold;
+  display: inline;
+}
+
+.card-description {
+  margin: 0;
+  font-weight: normal;
+  font-size: 14px;
+  color: #666;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px; /* Gap between cards */
+  justify-content: center; /* Center cards horizontally */
+  margin-top: 50px;
+  margin-bottom: 50px;
+  
+}
+
+@media (max-width: 768px) {
+  /* Media query for screens smaller than 768px */
+  .card-container {
+    justify-content: flex-start; /* Stack cards left-aligned */
+  }
+}
+
+.info {
+  width: 70%;
+  display: flex;
+  margin: auto;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #f2f2f2;
+}
+
+.reload {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+
+.reload-button {
+  margin: auto;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 16px;
+  text-transform: uppercase;
+  border-radius: 10px;
+}
+
+.grade-a {
+  color: green;
+  flex: 1; /* Use flexbox to take up half of the container */
+  background-color: lightgreen; /* Set the background color */
+  padding: 20px; /* Add some padding for spacing */
+  display: flex; /* Use flexbox for the right div as well */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  text-align: center; 
+}
+
+.grade-b {
+  color: rgb(74, 237, 74);
+  flex: 1; /* Use flexbox to take up half of the container */
+  background-color: rgb(45, 203, 45); /* Set the background color */
+  padding: 20px; /* Add some padding for spacing */
+  display: flex; /* Use flexbox for the right div as well */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  text-align: center; 
+}
+
+.grade-c {
+  color: rgb(161, 161, 0);
+  flex: 1; /* Use flexbox to take up half of the container */
+  background-color: rgb(255, 255, 0); /* Set the background color */
+  padding: 20px; /* Add some padding for spacing */
+  display: flex; /* Use flexbox for the right div as well */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  text-align: center; 
+}
+
+.grade-d {
+  color: rgb(164, 107, 0);
+  flex: 1; /* Use flexbox to take up half of the container */
+  background-color: rgb(255, 166, 0); /* Set the background color */
+  padding: 20px; /* Add some padding for spacing */
+  display: flex; /* Use flexbox for the right div as well */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  text-align: center; 
+}
+
+.grade-f {
+  color: rgb(158, 0, 0);
+  flex: 1; /* Use flexbox to take up half of the container */
+  background-color: rgb(255, 0, 0); /* Set the background color */
+  padding: 20px; /* Add some padding for spacing */
+  display: flex; /* Use flexbox for the right div as well */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  text-align: center; 
+}
+
+.grade-default {
+  flex: 1; /* Use flexbox to take up half of the container */
+  padding: 20px; /* Add some padding for spacing */
+  display: flex; /* Use flexbox for the right div as well */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  text-align: center; 
+}
+
+.left {
+  flex: 2; /* Use flexbox to take up half of the container */
+  padding: 20px; /* Add some padding for spacing */
+}
+/* Define the right div */
+
+
+.table {
+  width: 100%; /* Set table width to 100% */
+  table-layout: fixed; /* Prevent table from expanding based on content */
+  border-collapse: collapse; /* Collapse table borders */
+}
+
+.table th,
+.table td {
+  padding: 8px; /* Add padding to table cells */
+  text-align: left; /* Set text alignment to left */
+}
+
+.table th:nth-child(1) {
+  width: 20%; /* Set width of first column to 20% */
+}
+
+.table th:nth-child(2),
+.table th:nth-child(3) {
+  width: 40%; /* Set width of second and third columns to 40% each */
+}
